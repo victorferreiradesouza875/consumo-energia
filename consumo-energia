@@ -1,0 +1,12 @@
+nome_cliente=input("Digite o nome do cliente: ")
+aparelho=input("Digite o nome do aparelho: ")
+potencia=input("Digite a potência do aparelho em watts (W): ")
+tempo_uso=input("Digite o tempo de uso do aparelho em horas (h): ")
+# calculo de consumo de energia 
+consumo_energia = (float(potencia) * float(tempo_uso) * 30  / 1000)
+
+print(f"Nome do cliente: {nome_cliente}")
+print(f"Aparelho: {aparelho}")
+print(f"Potência: {potencia} W")
+print(f"Tempo de uso: {tempo_uso} h")
+print(f"Consumo de energia: {consumo_energia:.2f} kWh")
